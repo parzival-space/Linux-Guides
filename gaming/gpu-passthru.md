@@ -68,8 +68,6 @@ IOMMU Group 17:
 Make note of the PCI IDs for the GPU and any associated devices, as these will be needed in the next step.
 In this case the PCI IDs are `10de:13c2` and `10de:0fbb`.
 
-remember the pci id ([10de:13c2] & [10de:0fbb]) for later use
-
 ### Isolate GPU in IOMMU Group
 To ensure that the GPU is not used by the host, we need to load the `vfio-pci` driver early in the boot process. 
 Follow these steps:
