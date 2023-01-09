@@ -1,9 +1,19 @@
-# Setup GPU passthru
+# Setup GPU Passthrough
 This guide will cover the process of passing through a GPU to a virtual machine, allowing the VM to use the GPU as if it were a physical device. 
 This can be a useful technique for users who want to use specialized software or applications that require a dedicated graphics processing unit (GPU). 
 With GPU passthrough, users can achieve near-native performance in their VMs, making it a powerful tool for a wide range of use cases. 
 In this documentation, I will walk through the necessary steps to set up GPU passthrough on a Linux system and provide tips and troubleshooting advice along the way.
 
+
+
+## Requirements
+Before following the steps in this guide, you should have a working QEMU virtual machine (VM) environment. 
+This includes having a basic VM set up and running, as well as having QEMU and any necessary dependencies installed.
+<br> If you need help with that, I wrote a guide that you can follow [here](../virtualization/basic-vm.md).
+
+You will also need to have a dedicated GPU that you want to assign to the VM. Make sure that the GPU is properly installed and recognized by the host system.
+
+Some knowledge of the Linux command line and system administration may also be helpful.
 
 
 ## Setting up IOMMU
@@ -126,7 +136,7 @@ If the `vfio-pci` driver is not in use, it may be necessary to troubleshoot the 
 
 
 
-### Final Notes
+## Final Notes
 Here are a few tips to keep in mind when setting up IOMMU and isolating a GPU for use with a virtual machine:
 
 * Make sure that IOMMU is enabled in the BIOS/UEFI settings of your system. 

@@ -1,7 +1,8 @@
 # Requirements
 
-- A working gpu passthru VM is required.
+- A working gpu passthrough VM is required.
 - Updated graphics drivers.
+- Pulseaudio
 
 
 # Installation
@@ -83,6 +84,7 @@ Download and install the latest Windows Guest build.
 > https://looking-glass.io/downloads
 
 ## Install IddSampleDriver
+The IddSampleDrivers prevents your GPU from shutdown so you dont need a dummy plug.
 
 ```powershell
 # download and install scoop

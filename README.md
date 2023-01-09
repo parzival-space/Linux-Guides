@@ -8,5 +8,8 @@ However, I hope that these notes may also be useful for others who are intereste
 ## Contents
 
 * Gaming
-  * [GPU passthru](gaming/gpu-passthru.md)
-  * [Setup Looking Glass](gaming/looking-glass.md)
+    * [GPU Passthrough](gaming/gpu-passthrough.md)
+    * [Setup Looking Glass](gaming/looking-glass.md)
+
+* Virtualization
+    * [Setup a basic VM](virtualization/basic-vm.md)
