@@ -1,3 +1,8 @@
+> **ATTENTION** </br>
+> I have not completed this page jet. </br>
+> Some information maybe incomplete and/or missing.
+
+
 # Requirements
 
 - A working gpu passthrough VM is required.
