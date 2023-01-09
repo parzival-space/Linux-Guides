@@ -140,7 +140,7 @@ If the `vfio-pci` driver is not in use, it may be necessary to troubleshoot the 
 Here are a few tips to keep in mind when setting up IOMMU and isolating a GPU for use with a virtual machine:
 
 * Make sure that IOMMU is enabled in the BIOS/UEFI settings of your system. 
-    This may not be required for the steps in this guide to work properly but I heared of cases where this was needed.
+    This may not be required for the steps in this guide to work properly but I heard of cases where this was needed.
 
 * Remember to reboot your system after making changes to the grub configuration. 
     This is necessary for the changes to take effect.

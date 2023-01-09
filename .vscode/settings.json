@@ -1,0 +1,15 @@
+{
+  "cSpell.words": [
+    "CMDLINE",
+    "IOMMU",
+    "maxdepth",
+    "mkconfig",
+    "mkinitcpio",
+    "modconf",
+    "nullglob",
+    "shopt",
+    "UEFI",
+    "vfio",
+    "virqfd"
+  ]
+}
