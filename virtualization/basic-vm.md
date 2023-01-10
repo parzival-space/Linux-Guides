@@ -127,6 +127,6 @@ If you are interested in setting up a gaming virtual machine, you may want to ta
   VGA PCI Pass-through without an attached physical monitor, keyboard or mouse.
 
 ### VFIO Community
-If you help or want to connect with other virtual machine users you can join the VFIO Discord at https://discord.gg/f63cXwH.
+If you need help or want to connect with other virtual machine users you can join the VFIO Discord at https://discord.gg/f63cXwH.
 
 Thanks for following this guide, and happy virtualization!
