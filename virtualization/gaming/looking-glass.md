@@ -11,7 +11,7 @@ Let's get started!
   - [GPU Passthrough](./gpu-passthrough.md)
   - [Setup a basic VM](../virtualization/basic-vm.md)
 - Updated graphics drivers (guest).
-- Pulseaudio
+- Pipewire
 
 
 
@@ -109,6 +109,8 @@ You can install it just like every other Windows application.
 
 ### Install IddSampleDriver
 > **You can skip this step if you have a Monitor or a <a href="https://a.co/d/hR8z40t">Dummy Plug</a> connected to your GPU.**
+ <br>
+ Also it is highly recommended to use a Dummy Plug/Monitor instead of this.
 
 To prevent your GPU from shutting down, install the IddSampleDriver.
 You can simply paste the script below in a Powershell window and you should be good to go.
@@ -130,7 +132,7 @@ sudo scoop install iddsampledriver-ge9-np -g
 
 You can now shutdown your guest and disable the Video Display by setting your ``<video>`` type to ``None``.
 
-#### Optional: Costomize IddSampleDriver settings
+#### Optional: Customize IddSampleDriver settings
 If you would like to have less or more resolution to select, you can customize the driver settings in C:\IddSampleDriver\option.txt.
 
 
@@ -174,7 +176,7 @@ On the first run, you'll need to install the SPICE guest tools. You can find the
 In addition, you'll need to install the VIRTIO drivers. They can be found at the following link:
 <a href="https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/">https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/</a>
 
-### (Optional) Startmenu Entry
+### (Optional) Launcher Entry
 Create a new file at `~/.local/share/applications/looking-glass-client.desktop` with the following content:
 
 ```
