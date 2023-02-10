@@ -11,5 +11,6 @@ However, I hope that these notes may also be useful for others who are intereste
     * [Setup a basic VM](virtualization/basic-vm.md)
 
     * Gaming
-        * [GPU Passthrough](gaming/gpu-passthrough.md)
-        * [Setup Looking Glass](gaming/looking-glass.md)
+        * [GPU Passthrough](virtualization/gaming/gpu-passthrough.md)
+        * [Setup Looking Glass](virtualization/gaming/looking-glass.md)
+        * [VM Optimizations](virtualization/gaming/vm-optimizations.md)
