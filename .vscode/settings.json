@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
+    "ASUS",
+    "chipset",
     "chmode",
     "CMDLINE",
     "cpuset",
@@ -19,6 +21,7 @@
     "nonportable",
     "nullglob",
     "NVME",
+    "openrgb",
     "ovmf",
     "pamac",
     "pflash",
@@ -30,6 +33,7 @@
     "stimer",
     "synic",
     "tmpfiles",
+    "udev",
     "UEFI",
     "vapic",
     "vcpu",
