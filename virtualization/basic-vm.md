@@ -120,10 +120,10 @@ You can increase your storage speeds passing trough an entire disk through to yo
 ### Gaming VMs
 If you are interested in setting up a gaming virtual machine, you may want to take a look at the following topics for further information:
 
-* [GPU Passthrough](../gaming/gpu-passthrough.md) </br>
+* [GPU Passthrough](./gaming/gpu-passthrough.md) </br>
   Allowing your VM to access your GPU.
 
-* [Looking Glass](../gaming/looking-glass.md) </br>
+* [Looking Glass](./gaming/looking-glass.md) </br>
   VGA PCI Pass-through without an attached physical monitor, keyboard or mouse.
 
 ### VFIO Community
