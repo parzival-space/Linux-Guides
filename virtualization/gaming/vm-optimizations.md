@@ -125,7 +125,7 @@ Please keep in mind that these methods have a 99.99% safety rate, however, there
 
 To enhance the performance of your gaming virtual machine, consider exploring the following topics:
 
-  * GPU Passthrough: This technique can dramatically improve gaming performance compared to virtual graphics. I have written a guide on it, which you can find <a href="./gpu-passthrough.md">here</a>.
+  * GPU Passthrough: This technique can dramatically improve gaming performance compared to virtual graphics. I have written a guide on it, which you can find [here](gpu-passthrough.md).
 
   * RAM and Storage Optimization: Adequate RAM and storage configurations can ensure fast loading times and smooth game performance. If you have a NVME SSD, it can be passed to the virtual machine just like a GPU.
 
