@@ -7,13 +7,18 @@ However, I hope that these notes may also be useful for others who are intereste
 
 ## Contents
 
+* Annoyances
+    * Manjaro
+        * [Installing Mesa Nonfree-Codecs](./annoyances/manjaro/mesa-nonfree.md)
+        * [Switching to the Manjaro Unstable Branch](./annoyances/manjaro/branch-unstable.md)
+
 * Virtualization
-    * [Setup a basic VM](virtualization/basic-vm.md)
+    * [Setup a basic VM](./virtualization/basic-vm.md)
 
     * Gaming
-        * [GPU Passthrough](virtualization/gaming/gpu-passthrough.md)
-        * [Setup Looking Glass](virtualization/gaming/looking-glass.md)
-        * [VM Optimizations](virtualization/gaming/vm-optimizations.md)
+        * [GPU Passthrough](./virtualization/gaming/gpu-passthrough.md)
+        * [Setup Looking Glass](./virtualization/gaming/looking-glass.md)
+        * [VM Optimizations](./virtualization/gaming/vm-optimizations.md)
 
 * Hardware-Configuration
-    * [Setup OpenRGB](hardware/openrgb.md)
+    * [Setup OpenRGB](./hardware/openrgb.md)
