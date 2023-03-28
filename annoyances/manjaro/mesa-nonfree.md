@@ -1,7 +1,7 @@
 # Mesa (Nonfree)
 Manjaro removed the hardware accelerated H264/H265 encoding from the Mesa drivers due to a patent issue. 
 This can be a problem for users with AMD GPUs who need these codecs for tasks like streaming with OBS. 
-Fortunately, it's possible to "re-enable" the codecs on Manjaro using the (Nonfree.eu repository)[https://nonfree.eu/].
+Fortunately, it's possible to "re-enable" the codecs on Manjaro using the [Nonfree.eu repository](https://nonfree.eu/).
 
 ## Background
 Other distros have also removed these codecs from the Mesa driver. 
@@ -39,4 +39,3 @@ sudo pacman -S mesa
 
 ## Final notes
 Now that you have enabled the proprietary codecs in the Mesa driver, you can enjoy hardware acceleration for H264/H265 encoding and decoding on Manjaro. 
-Keep in mind that using proprietary codecs can have legal implications in some regions, so make sure to consult the laws in your area.
