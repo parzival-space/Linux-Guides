@@ -14,6 +14,7 @@ However, I hope that these notes may also be useful for others who are intereste
 
 * Virtualization
     * [Setup a basic VM](./virtualization/basic-vm.md)
+    * [Emulating a Different Architecture](./virtualization/different-arch.md)
 
     * Gaming
         * [GPU Passthrough](./virtualization/gaming/gpu-passthrough.md)
@@ -22,3 +23,8 @@ However, I hope that these notes may also be useful for others who are intereste
 
 * Hardware-Configuration
     * [Setup OpenRGB](./hardware/openrgb.md)
+
+
+## License
+
+This project is distributed under the MIT license. See [LICENSE](./LICENSE) for more information.
